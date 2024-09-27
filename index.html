@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez mon portfolio, qui met en avant mon parcours en tant que développeur web.
+    Vous y trouverez mes projets, mes expériences et mes compétences. 
+    Prêt à commencer un projet ensemble ? Contactez-moi dès aujourd'hui pour plus d'informations !
+    ">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <title>Portfolio Manpreet Kaur</title>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class ="logo">Manpreet Kaur</div>
+    <div>
+        <ul class="nav-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#experience">Expérience</a></li>
+            <li><a href="#projects">Projets</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    </nav>
+    <nav id="burger-nav">
+    <div class ="logo">Manpreet Kaur</div>
+    <div class="menu">
+        <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <div class="menu-links"> 
+        <li><a href="#about"  onclick="toggleMenu()">À propos</a></li>
+            <li><a href="#experience"  onclick="toggleMenu()">Expérience</a></li>
+            <li><a href="#projects"  onclick="toggleMenu()">Projets</a></li>
+            <li><a href="#contact"  onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </div>
+</nav>
+<section id="profile">
+    <div class="section-pic-container">
+        <img src="assets/profile-pic-zoom Large.webp" class="mypic" alt="Photo de profil de Manpreet">
+    </div>
+    <div class="section-text">
+        <h2 class="section-text-p1">Salut ! Je suis</h2>
+        <h1 class ="title"> Manpreet Kaur</h1>
+    <p class="section-text-p2 text-animation"> 
+        <span class="typewriter-text">
+        </span>
+    </p>
+    <div class="btn-container">
+        <button 
+        class="btn btn-color2 "
+         onclick="window.open('./assets/CV_manpreet_dev.pdf')">CV</button>
+        <button 
+        class="btn btn-color1 "
+         onclick="location.href='./#contact'">Contact</button>
+    </div>
+    <div id="socials-container">
+        <img src="assets/linkedin.webp" alt="Mon Linkedin" class="icon" onclick="window.open('https://www.linkedin.com/in/manpreet98/')">
+        <img src="assets/github.webp" alt="Mon GitHub" class="icon" onclick="window.open('https://github.com/Preet011')">
+    </div>
+    </div>
+</section>
+<section id="about">
+    <p class="section-text-p1">Apprenez-en plus</p>
+    <h1 class="title">À propos de moi</h1>
+    <div class="section-container">
+    <div class="section-pic-container">
+       <img 
+       src="assets/sideSmile Large.webp" 
+       alt="Photo de profil"
+       class="about-pic">
+    </div>
+    <div class="about-details-container">
+        <div class="about-containers">
+
+            <div class="details-container">
+                <img src="assets/experience.webp" 
+                alt="Icône experience" 
+                class="icon">
+<h3>Intégrateur / Développeur web</h3>
+<p>Actuellement <br />Poles AIE</p>
+            </div>
+            <div class="details-container">
+                <img src="assets/experience.webp" 
+                alt="Icône expérience" 
+                class="icon">
+                <h3>Agent de conditionnement</h3>
+                <p>8 mois <br />L'Oréal</p> 
+            </div>
+        </div>
+        <div class="text-container">
+            <p>
+                Je travaille actuellement en informatique à Lepoles, où je me spécialise dans le développement web.
+                 Mon portfolio présente une gamme de projets qui mettent en valeur mes compétences en développement front-end et back-end, design réactif et technologies web modernes.
+                  Si vous pensez que mon expertise peut apporter de la valeur à votre projet ou équipe, n'hésitez pas à me contacter. 
+                  Je suis toujours ouvert à de nouvelles opportunités et collaborations. Merci de votre visite !
+            </p>
+        </div>
+    </div>
+</div>
+<img src="assets/arrow.webp" 
+alt="Icône flèche" 
+class="icon arrow"
+ onclick="location.href='#experience'"
+ />
+</section>
+<section id ="experience">
+    <p class="section-text-p1">Explorez mon</p>
+    <h1 class="title">Expérience</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container">
+                <h2 class="experience-sub-title">Développement Frontend</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="assets/checkmark.webp" 
+                        alt="Icône expérience"
+                        class="icon">
+                        <div>
+                            <h3>HTML</h3>
+                            <p>Expérimenté</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.webp" 
+                        alt="Icône expérience"
+                        class="icon">
+                        <div>
+                            <h3>CSS</h3>
+                            <p>Expérimenté</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.webp" 
+                        alt="Icône expérience"
+                        class="icon">
+                        <div>
+                            <h3>JavaScript</h3>
+                            <p>Intermédiaire</p>
+                        </div>
+                    </article>
+                   
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Développement Backend</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="assets/checkmark.webp" 
+                        alt="Icône expérience"
+                        class="icon">
+                        <div>
+                            <h3>Git</h3>
+                            <p>Intermédiaire</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.webp" 
+                        alt="Icône expérience"
+                        class="icon">
+                        <div>
+                            <h3>SQL</h3>
+                            <p>Intermédiaire</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.webp" 
+                        alt="Icône expérience"
+                        class="icon">
+                        <div>
+                            <h3>API</h3>
+                            <p>Intermédiaire</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="details-container">
+                <h2 class="experience-sub-title">Développement User Interface</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="assets/checkmark.webp" 
+                        alt="Icône expérience"
+                        class="icon">
+                        <div>
+                            <h3>Figma</h3>
+                            <p>Intermédiaire</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.webp" 
+                        alt="Icône expérience"
+                        class="icon">
+                        <div>
+                            <h3>Canva</h3>
+                            <p>Intermédiaire</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="assets/checkmark.webp" 
+                        alt="Icône expérience"
+                        class="icon">
+                        <div>
+                            <h3>Wix</h3>
+                            <p>Intermédiaire</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </div>
+    <img src="assets/arrow.webp" 
+alt="Icône flèche" 
+class="icon arrow"
+ onclick="location.href='#projects'"
+ />
+</section>
+<section id="projects">
+    <p class="section-text-p1">Parcourez mes récents</p>
+    <h1 class="title">Projets</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/rps1.webp" 
+                alt="Projet 1" 
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Jeu RPS</h2>
+            <div class="btn-container">
+                <button class="btn btn-color2 project-btn" 
+                onclick="window.open('https://github.com/Preet011/projects_portfolio/tree/master/FR-rps')">
+                GitHub
+            </button>
+            <button class="btn btn-color2 project-btn" 
+            onclick="window.open('https://rps-game-fr.netlify.app')">
+            Live Demo
+        </button>
+            </div>
+    
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/weather.webp" 
+                alt="Projet 2" 
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Météo</h2>
+            <div class="btn-container">
+                <button class="btn btn-color2 project-btn" 
+                onclick="window.open('https://github.com/Preet011/projects_portfolio/tree/master/FR-weather')">
+                GitHub
+            </button>
+            <button class="btn btn-color2 project-btn" 
+            onclick="window.open('https://weather-api-fr.netlify.app')">
+            Live Demo
+        </button>
+            </div>
+    
+        </div>
+        <div class="details-container color-container">
+            <div class="article-container">
+                <img src="assets/cart.webp" 
+                alt="Projet 3" 
+                class="project-img"/>
+            </div>
+            <h2 class="experience-sub-title project-title">Panier d'achat</h2>
+            <div class="btn-container">
+                <button class="btn btn-color2 project-btn" 
+                onclick="window.open('https://github.com/Preet011/projects_portfolio/tree/master/FR-cart')">
+                GitHub
+            </button>
+            <button class="btn btn-color2 project-btn" 
+            onclick="window.open('https://panier-project.netlify.app/')">
+           Live Demo
+        </button>
+            </div>
+        </div>
+    </div>
+    </div>
+    <img src="assets/arrow.webp" 
+    alt="Icône flèche" 
+    class="icon arrow"
+     onclick="location.href='#contact'"
+     />
+</section>
+<section id="contact">
+    <p class="section-text-p1">Prenez contact</p>
+    <h1 class="title">Contactez-moi</h1>
+    <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="assets/email.webp" 
+            alt="Icône Email"
+            class="icon contact-icon email-icon">
+            <p><a href="mailto:mk0027591@gmail.com">Exemple@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="assets/linkedin.webp" 
+            alt="Icône LinkedIn"
+            class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/in/manpreet98/" target="_blank">LinkedIn</a></p>
+        </div>
+    </div>
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#experience">Expérience</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul> 
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Manpreet Kaur. All Rights Reserved.
+    </p>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" 
+integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" 
+crossorigin="anonymous" 
+referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
